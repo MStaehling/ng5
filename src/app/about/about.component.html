@@ -1,3 +1,9 @@
 <p>
   This is whar I'm all about. <a href="" (click)="sendMeHome()"><b>Take me back</b></a>.
 </p>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
